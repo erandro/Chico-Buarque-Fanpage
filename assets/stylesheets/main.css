@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'ArchiveGaramondPro';
+  src: url('../fonts/ArchiveGaramondPro/ArchiveGaramondPro.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ArchiveGaramondPro/ArchiveGaramondPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ArchiveGaramondPro/ArchiveGaramondPro.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ArchiveGaramondPro/ArchiveGaramondPro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ArchiveGaramondPro/ArchiveGaramondPro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ArchiveGaramondPro/ArchiveGaramondPro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 /*
   
   Custom styles
@@ -6,7 +16,7 @@
 body {
   background: #708090;
   color: #F5F5DC;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "ArchiveGaramondPro", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
